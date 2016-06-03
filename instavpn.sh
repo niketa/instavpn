@@ -11,4 +11,4 @@ echo "Cloning git repo"
 git clone https://github.com/sockeye44/instavpn.git --quiet || exit 1
 echo "Ok"
 cd instavpn
-sudo python install.py
+python install.py
